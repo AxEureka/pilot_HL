@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>リダイレクト中...</title>
+<script>
+const links = [
+  "https://forms.gle/3bF9mxJgxp6GCP2PA", // high
+  "https://forms.gle/a5eU2iarPDULaFGW8"  // low
+];
+
+// ★完全ランダム
+const rand = Math.floor(Math.random() * links.length);
+window.location.href = links[rand];
+</script>
+</head>
+<body>
+<p>リダイレクト中です...</p>
+</body>
+</html>
